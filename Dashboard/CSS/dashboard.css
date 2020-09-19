@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+
+}
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*background: linear-gradient(to right, #b9b9b9 0%, #575757 100%);*/*/
+    background-color:white;
+    font-size: 15px;
+}
+
+body {
+    display: grid;
+    /*place-items: center;*/
+}
+
+.mybtn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.resizable {
+    overflow: scroll;
+    resize: both;
+    max-width: 300px;
+    max-height: 460px;
+    border: 1px solid black;
+    min-width: 50px;
+    min-height: 50px;
+    background-color: skyblue;
+}
+
+label {
+    padding: 200px
+}
